@@ -1,0 +1,30 @@
+{
+    "buildspeed": 7,
+    "execspeed": 6,
+    "languages": [
+        "c",
+        "cpp"
+    ],
+    "uses": [
+    ],
+    "quality": 10,
+    "scope": [
+        "security",
+        "functional",
+        "style"
+    ],
+    "score": {
+        "style": [
+            "smatch.smatch.*"
+        ]
+    },
+    "test": {
+        "findings": [
+            "busybox",
+            "simple-c"
+        ],
+        "integration": [
+            {"cmd": [ "smatch", "--help" ], "returncode": 0 }
+        ]
+    }
+}
