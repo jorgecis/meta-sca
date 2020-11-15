@@ -1,0 +1,24 @@
+{
+    "buildspeed": 2,
+    "execspeed": 9,
+    "languages": [
+        "python"
+    ],
+    "uses": [
+        "@python"
+    ],
+    "quality": 9,
+    "scope": [
+        "functional"
+    ],
+    "score": {
+        "functional": [
+            "semgrep.semgrep..*"
+        ]
+    },
+    "test": {
+        "findings": [
+            "bad-python-reqs"
+        ]
+    }
+}
